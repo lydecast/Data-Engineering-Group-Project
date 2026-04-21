@@ -5,7 +5,7 @@ This project uses PySpark and the MovieLens dataset to build a simple medallion-
 ## Data Source
 
 MovieLens dataset from GroupLens:
-https://grouplens.org/datasets/movielens/
+https://files.grouplens.org/datasets/movielens/ml-32m.zip
 
 The notebook expects these raw source files in the Bronze layer:
 
