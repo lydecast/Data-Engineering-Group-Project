@@ -26,7 +26,7 @@ The notebook expects these raw source files in the Bronze layer:
 - Reads MovieLens CSV files from the Bronze path
 - Applies schema enforcement, timestamp conversion, safe casting, etc.
 - Produces Silver-layer datasets for cleaned movies, ratings, tags, and exploded genres
-- Builds Gold-layer outputs for top-rated movies
+- Builds Gold-layer outputs for top movies and top genres
 
 ## How to Run
 
@@ -45,5 +45,5 @@ The notebook is currently set up to use Google Drive paths under `/content/drive
 The pipeline writes these outputs:
 
 - Silver: `cleaned_movies_parquet`, `cleaned_ratings_csv`, `tagged_high_csv`, `movies_exploded_parquet`
-- Gold: `top_20_movies`
+- Gold: `top_20_movies`, `top_20_genres`
 
